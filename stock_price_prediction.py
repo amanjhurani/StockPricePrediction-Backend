@@ -2,8 +2,9 @@ import model_train
 import data
 
 
-df = data.getStockData('GOOGL')
+df = data.getStockData('AAPL')
 
-model_train.trainStockModel('GOOGL', df)
+# model_train.trainStockModel('AAPL', df)
+model_train.getStockPrediction('AAPL', df)
 
 
